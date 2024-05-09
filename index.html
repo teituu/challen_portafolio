@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTAFOLIO DARIO </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+
+    <header class="cabecera contenedor">
+        <span class="cabecera--titulo"><img class="imagen--logo" src="imagenes/logo.png"
+                alt="titulo cabecera">DARIO</span>
+        <ul class="cabecera--menu">
+            <li class="item"><a href="#seccion1" class="link">Sobre mi</a></li>
+            <li class="item"><a href="#seccion2" class="link">Skills</a></li>
+            <li class="item"><a href="#seccion3" class="link">Hobbies</a></li>
+            <li class="item"><a href="#seccion4" class="link">Formacion</a></li>
+            <li class="item"><a href="#seccion5" class="link">Proyectos</a></li>
+            <li class="item"><a href="#seccion6" class="link">contacto@teitu.com</a></li>
+        </ul>
+    </header>
+
+    <main class="principal--contenedor">
+
+        <seccion class="descripcion">
+            <article class="descripcion-contenedor">
+                <h1 class="descripcion--titulo">Hola mi nobre es DARIO PEREZ y construyo paguinas webs</h1><br>
+                <div class="descripcion--descripcion">Soy formado en Alura Latam y actualmente estoy participando del
+                    proyecto Oracle ONE en Alura Latam.
+                </div><br>
+                <div class="descripcion--links">
+                    <a href="https://github.com/teituu" class="links">Github</a>
+                    <a href="https://www.linkedin.com/in/darioeduardo/" class="links">Linkedin</a>
+                    <a href="https://www.instagram.com/edu940309" class="links">Instagram</a>
+                    <a href="" class="links">Currículo</a>
+                </div>
+            </article>
+            <div class="descripcion--imagen">
+                <img class="imagen--perfil" src="imagenes/imagen.png" alt="imagen de perfil">
+            </div>
+        </seccion>
+
+        <section id="seccion1" class="sobremi--titulo">
+            <h2 class="sobremi--h2">SOBRE MI</h2><br><a href="#seccion1"></a>
+            <p class="sobremi--descripcion">
+
+                Desde pequeño me gustaban mucho las cosas de la informática. De hecho, un par de veces tuve que llamar a
+                un ingeniero en sistemas para arreglar mi computadora, porque con videos de YouTube intentaba hacerla
+                más rápida. Siempre me han gustado los videojuegos; han sido una de mis fascinaciones. Además, siempre
+                he sido muy autodidacta y prefiero hacer las cosas mientras me van explicando, porque así es como se me
+                graban mejor las cosas. <br>
+                <br>
+                Cuando me enteré de que existía un programa como Alura, me inscribí, porque sabía que podía desarrollar
+                una habilidad como programador. Estamos dando nuestros primeros pasos como programador y aún nos falta
+                mejorar y aprender.
+            </p><img class="imagen--firma" src="imagenes/image 4firma.png" alt="firma">
+        </section>
+
+        <section id="seccion2" class="skills--container">
+            <h3 class="skills--titulo">SKILLS</h3><a href="#seccion2"></a>
+
+            <div class="skills--imagenes">
+
+                <img id="imagenes-skills" class="skills--imagenes" src="imagenes/Skill1.png" alt="icocno javascript">
+                <img id="imagenes-skills" class="skills--imagenes" src="imagenes/Skill.png" alt="icono html">
+                <img id="imagenes-skills" class="skills--imagenes" src="imagenes/Skill3.png" alt="icono node.js">
+                <img id="imagenes-skills" class="skills--imagenes" src="imagenes/Skill5.png" alt="icono css">
+
+            </div>
+
+        </section>
+
+        <section id="seccion3" class="contenedor--hobbies">
+            <h4 class="titulo--hobbies">HOBBIES</h4><a href="#seccion3"></a>
+            <div class="imagenes--hobbies">
+                <img id="hobbies-imagenes" src="imagenes/Skilloirmusica.png" alt="audifonos">
+                <img id="hobbies-imagenes" src="imagenes/Skillverseries.png" alt="television">
+                <img id="hobbies-imagenes" src="imagenes/Skillcocina.png" alt="cubiertos">
+                <img id="hobbies-imagenes" src="imagenes/Skillfotos.png" alt="camara">
+            </div>
+        </section>
+
+        <section id="seccion4" class="contenedor--academica"><a href="#seccion4"></a>
+            <h5 class="titulo--academica">FORMACION ACADEMICA</h5>
+            <div class="imagen--academia">
+                <img id="imagen--academica" src="imagenes/alura.webp" alt="Oracle">
+            </div>
+            <div class="texto--academica">
+                <span class="formacion-nombtre">Oracle One</span><br>
+                <span class="formacion-fecha">Encuro Alura Latam</span>
+            </div>
+        </section>
+
+        <section id="seccion5" class="contenedor--laboral">
+            <h5 class="titulo--laboral">EXPERIENCIA LABORAL</h5><a href="#seccion5"></a>
+            <img id="imagen-encriptador" src="imagenes/encriptador.png" alt="encriptador de texto">
+            <div class="exp--imagenes">
+                <p class="parrafo">Encriptador<br><br>Challenge ONE Encriptador/Desencriptado</p>
+                <a href="https://github.com/teituu/alura-challen-encriptador"><button class="boton">REPOSITORIO</button></a>
+            </div>
+        </section>
+
+        <section id="seccion6" class="seccion--contacto"><a href="#seccion6"></a>
+            <img class="imagen--telefono" src="imagenes/telefono.png" alt="telefono">
+            <form class="principal__formulario"  data-formulario onsubmit="return guardarDatosFormulario()">
+
+                <div class="contenedor--formulario">
+                    <fieldset class="Nombre">
+                        <label style="padding-right: 67px;" for="nombre">Nombre:</label>
+                        <input
+                            name="nombre"  
+                            id="nombre"
+                            class="nombre__completo" 
+                            type="text"
+                            minlength="3"
+                            required
+                        />
+                        <span class="mensaje-error"></span>
+                    </fieldset>
+                    <fieldset class="correo__electrónico">
+                        <label for="email">Correo electrónico:</label>
+                        <input 
+                            name="email"
+                            id="email"
+                            class="campo__comple"
+                            type="email"
+                            minlength="4"  
+                            required
+                        />
+                        <span class="mensaje-error"></span>
+                    </fieldset>
+                    <fieldset class="Asunto">
+                        <label style="padding-right: 73px;" for="asunto">Asunto:</label>
+                        <input 
+                            name="asunto"
+                            id="asunto"
+                            class="campo__comple"
+                            type="asunto"
+                            required
+                        />
+                    </fieldset>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea 
+                    class="caja-4" 
+                    id="mensaje" 
+                    name="mensaje" 
+                    rows="8" 
+                    required></textarea>
+
+                    <button class="boton-enviar" type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+
+
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

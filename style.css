@@ -1,0 +1,270 @@
+header{
+    height: 60px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.principal--contenedor{
+    background-color: #A0A0A0;
+}
+
+body{
+    background: #F5F5F5;
+}
+
+
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+
+.link:hover{
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.cabecera{
+    font-size: 20px;
+    background-color: silver;
+    display: flex;
+    align-items: center;
+    gap: 628px;
+    
+}
+
+.cabecera--titulo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.imagen--logo{
+    height: 22px;
+
+}
+
+.cabecera--menu{
+    display: flex;
+    list-style: none; 
+    gap: 10px;
+
+}
+
+.descripcion{
+    display: flex;
+    align-items: center;
+    background-color: #B8B8B8;
+    padding: 0 19px;
+    
+}
+
+.descripcion--contenedor{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    gap: 20px;
+}
+
+.descripcion--titulo{
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.descripcion--descripcion{
+    font-size: 24px;
+}
+
+.descripcion--links{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.imagen--perfil{
+    height: 300px;
+}
+
+.sobremi--titulo{
+    background-color: #B0B0B0;
+    padding: 0 20px;
+}
+
+
+.sobremi--h2{
+    padding-top: 20px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.sobremi--descripcion{
+    font-size: 18px;
+    padding: 40px 40px 40px 40px;
+}
+
+.imagen--firma{
+    padding: 40px;
+}
+
+
+.skills--container{
+    background-color: #A8A8A8;
+}
+
+.skills--titulo{
+    padding-top: 20px;
+    font-size: 22PX;
+    background-color: #A8A8A8;
+    text-align: center;
+}
+
+.skills--imagenes{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#imagenes-skills{
+    border-radius: 30px;
+    box-shadow: 20px 23px 23px -8px;
+}
+
+.titulo--hobbies{
+    background-color: #A0A0A0;
+    text-align: center;
+    font-size: 22px;
+}
+
+.imagenes--hobbies{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 15px;
+}
+
+#hobbies-imagenes{
+    border-radius: 30px;
+    box-shadow: 20px 23px 23px -8px;
+}
+
+.titulo--academica{
+    padding-top: 20px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.imagen--academia{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    justify-content:center;
+}
+
+#imagen--academica{
+    display: flex;
+    background-color: white;
+    width: 176px;
+    height: 174px;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 20px 23px 23px -8px;
+}
+
+.texto--academica{
+    text-align: center;
+    font-size: 18px;
+}
+
+.titulo--laboral{
+    padding-top: 40px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.contenedor--laboral {
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+#imagen-encriptador{
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+    box-shadow: 20px 23px 23px -8px;
+}
+
+.exp--imagenes{
+    font-size: 18px;
+    padding-top: 40px;
+}
+
+.boton{
+    color: white;
+    background-color: blueviolet;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 4px 6px 2px 6px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.boton:hover,.boton-enviar:hover{
+    background-color: rgb(197, 62, 197);
+    transform: scale(1.1);
+    color: black;
+}
+
+.seccion--contacto{
+    justify-content: center;
+    display: flex;
+    padding-left: 20px;
+    margin: 15px;
+    align-items: center;
+    font-size: 16px;
+    margin: 25px 0px -4px 0px;
+}
+
+.imagen--telefono{
+    width: 400px;
+    height: 300px;
+    border-radius: 30px;
+    box-shadow: 20px 23px 23px -8px;
+}
+
+.principal__frmulario{
+    text-align: start;
+}
+
+.contenedor--formulario{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="asunto"],
+textarea {
+    border-radius: 10px;
+    caret-color: black;
+    font-size: 15px;
+}
+
+.boton-enviar{
+    color: white;
+    background-color: blueviolet;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 4px 6px 2px 6px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
